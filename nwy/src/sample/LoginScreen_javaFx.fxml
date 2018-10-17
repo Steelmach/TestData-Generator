@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import org.controlsfx.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="loginScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #1a2638;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginScreen">
+   <children>
+      <TextField id="loginField" fx:id="loginField" layoutX="539.0" layoutY="317.0" promptText="Podaj login" style="-fx-background-color: e8eaed;" />
+      <Label fx:id="LoginLabel" layoutX="538.0" layoutY="279.0" text="Login" textFill="#d0d0d0" />
+      <Label layoutX="537.0" layoutY="369.0" text="Hasło" textFill="#d0d0d0" />
+      <Button id="LoginButton" fx:id="loginButton" graphicTextGap="12.0" layoutX="646.0" layoutY="553.0" mnemonicParsing="false" onAction="#clickLoginButton" style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="ZALOGUJ" textFill="#d0d0d0" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <Separator layoutX="400.0" layoutY="226.0" prefWidth="400.0" />
+      <ImageView fitHeight="76.0" fitWidth="103.0" layoutX="567.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Tomasz/Pictures/unlock%20color.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="47.0" layoutX="479.0" layoutY="317.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Tomasz/Pictures/login%20color.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="51.0" layoutX="479.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Tomasz/Pictures/keys%20kolor.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="400.0" layoutY="510.0" prefHeight="3.0" prefWidth="400.0" />
+      <Button fx:id="closeButton" graphicTextGap="12.0" layoutX="453.0" layoutY="553.0" mnemonicParsing="false" onAction="#clickCloseButton" style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="ZAMKNIJ" textFill="#d0d0d0" textOverrun="CENTER_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Button>
+      <PasswordField id="passwordField" fx:id="passwordField" layoutX="539.0" layoutY="400.0" promptText="Podaj hasło" style="-fx-background-color: #e8eaed;" />
+      <Label fx:id="textErrorLabel" layoutX="537.0" layoutY="470.0" textFill="#e86262" />
+      <Label layoutX="23.0" layoutY="765.0" text="Tomasz Stelmach Solution IT    All rights reserved ® " textFill="#a4a3a3" />
+      <Label layoutX="1091.0" layoutY="14.0" text="app ver. 2.1.4" textFill="#a4a3a3" />
+      <ImageView fx:id="loaderView" fitHeight="150.0" fitWidth="200.0" layoutX="505.0" layoutY="647.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Tomasz/Pictures/loader9.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

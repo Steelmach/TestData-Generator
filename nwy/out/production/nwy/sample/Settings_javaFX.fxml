@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="labelLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #1a2638;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Settings">
+   <children>
+      <Separator layoutX="193.0" layoutY="144.0" prefWidth="800.0" />
+      <Separator layoutX="200.0" layoutY="593.0" prefWidth="800.0" />
+      <Button fx:id="buttonGenerate" graphicTextGap="12.0" layoutX="544.0" layoutY="655.0" mnemonicParsing="false"  style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="Zapisz" textFill="#d0d0d0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="5.0" left="30.0" right="30.0" top="5.0" />
+         </padding>
+      </Button>
+      <Label layoutX="19.0" layoutY="765.0" text="Tomasz Stelmach Solution IT. All rights reserved ® " textFill="#a4a3a3" />
+      <HBox layoutX="14.0" layoutY="9.0" prefHeight="51.0" prefWidth="919.0">
+         <children>
+            <Button fx:id="buttonCloseWindow1" mnemonicParsing="false"  prefHeight="37.0" prefWidth="132.0" style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="Powrót" textFill="#d0d0d0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonAboutProgram" mnemonicParsing="false" prefHeight="37.0" prefWidth="132.0" style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="O programie" textFill="#d0d0d0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonRaporty" mnemonicParsing="false"  prefHeight="37.0" prefWidth="125.0" style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="Raporty" textFill="#d0d0d0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="buttonCloseWindow" layoutX="10.0" layoutY="10.0" mnemonicParsing="false"  prefHeight="37.0" prefWidth="132.0" style="-fx-background-color: #1a2638; -fx-border-color: e8eaed; -fx-border-radius: 25;" text="Zamknij" textFill="#d0d0d0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="labelLoginName" layoutX="1102.0" layoutY="22.0" prefHeight="25.0" prefWidth="74.0" text="..." textFill="#d0d0d0">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="999.0" layoutY="22.0" prefHeight="25.0" prefWidth="87.0" text="Użytkownik:" textFill="#d0d0d0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="230.0" text="Katalog docelowy" textFill="#d0d0d0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="289.0" text="Nazwa pliku" textFill="#d0d0d0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="350.0" text="Ilość danych testowych" textFill="#d0d0d0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="400.0" text="Komentarz" textFill="#d0d0d0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField id="loginField" fx:id="loginField" layoutX="584.0" layoutY="227.0" promptText="Podaj login" style="-fx-background-color: e8eaed;" />
+      <TextField id="loginField" fx:id="loginField1" layoutX="584.0" layoutY="286.0" promptText="Podaj login" style="-fx-background-color: e8eaed;" />
+      <TextField id="loginField" fx:id="loginField11" layoutX="584.0" layoutY="347.0" promptText="Podaj login" style="-fx-background-color: e8eaed;" />
+      <TextArea layoutX="584.0" layoutY="406.0" prefHeight="154.0" prefWidth="306.0" />
+   </children>
+</AnchorPane>
