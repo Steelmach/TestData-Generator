@@ -195,7 +195,7 @@ public class MainWindow implements Initializable {
         choiceBoxNameOptions.getItems().addAll("Jednoczłonowe", "Wieloczłonowe");
         choiceBoxNameOptions.getSelectionModel().select("Jednoczłonowe");
 
-        //
+
         choiceBoxLastName.getItems().removeAll(choiceBoxLastName.getItems());
         choiceBoxLastName.getItems().addAll("Polskie", "Angielskie", "Niemieckie");
         choiceBoxLastName.getSelectionModel().select("Polskie");
@@ -204,7 +204,7 @@ public class MainWindow implements Initializable {
         choiceBoxLastNameOptions.getItems().addAll("Jednoczłonowe", "Wieloczłonowe");
         choiceBoxLastNameOptions.getSelectionModel().select("Jednoczłonowe");
 
-        //
+
         choiceBoxAddressName.getItems().removeAll(choiceBoxAddressName.getItems());
         choiceBoxAddressName.getItems().addAll("Ulica", "Miasto", "Ulica i Miasto" );
         choiceBoxAddressName.getSelectionModel().select("Ulica");
@@ -213,7 +213,7 @@ public class MainWindow implements Initializable {
         choiceBoxAddressNameOptions.getItems().addAll("Polski", "Angielski","Niemiecki");
         choiceBoxAddressNameOptions.getSelectionModel().select("Polski");
 
-        //
+
         choiceBoxPhone.getItems().removeAll(choiceBoxPhone.getItems());
         choiceBoxPhone.getItems().addAll("Polski", "Angielski", "Niemiecki" );
         choiceBoxPhone.getSelectionModel().select("Polski");
@@ -226,7 +226,7 @@ public class MainWindow implements Initializable {
         choiceBoxPhoneOptionsMore.getItems().addAll("Nr ze spacjami", "Nr bez spacji");
         choiceBoxPhoneOptionsMore.getSelectionModel().select("Nr ze spacjami");
 
-        //
+
         choiceBoxPesel.getItems().removeAll(choiceBoxPesel.getItems());
         choiceBoxPesel.getItems().addAll("Pełnoletni", "Niepełnoletni" );
         choiceBoxPesel.getSelectionModel().select("Pełnoletni");
@@ -235,20 +235,13 @@ public class MainWindow implements Initializable {
         choiceBoxPeselOptions.getItems().addAll("Kobieta", "Mężczyzna");
         choiceBoxPeselOptions.getSelectionModel().select("Kobieta");
 
-        //
         choiceBoxCountry.getItems().removeAll(choiceBoxCountry.getItems());
         choiceBoxCountry.getItems().addAll("Z Europy", "Z Ameryki", "Z Azji", "Pozostałe" );
         choiceBoxCountry.getSelectionModel().select("Z Europy");
 
-
-
-
         choiceBoxCompanyy.getItems().removeAll(choiceBoxCompanyy.getItems());
         choiceBoxCompanyy.getItems().addAll("Z Europy", "Z Ameryki", "Z Azji", "Pozostałe" );
         choiceBoxCompanyy.getSelectionModel().select("Z Europy");
-
-
-
 
         choiceBoxNumber.getItems().removeAll(choiceBoxNumber.getItems());
         choiceBoxNumber.getItems().addAll("L. dodatnie", "L.ujemne");
@@ -282,7 +275,7 @@ public class MainWindow implements Initializable {
         choiceBoxVersion.getItems().addAll("X.X.X","XX.XX.XX");
         choiceBoxVersion.getSelectionModel().select("X.X.X");
 
-
+        //comment endgity
 
 
     }
